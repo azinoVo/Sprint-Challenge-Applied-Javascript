@@ -2,7 +2,7 @@ class TabLink {
   constructor(tabElement){
     // assign this.tabElement to the tabElement DOM reference
     // this.tabElement;
-    this.tabElement = tabElement; //ALl the DIV tab elements
+    this.tabElement = tabElement; //All the DIV tab elements
     // console.log(this.tabElement);
     
     // Get the `data-tab` value from this.tabElement and store it here
@@ -37,7 +37,7 @@ class TabLink {
     });
 
     //Bind this to selectTab (turn on if necessary)
-    this.selectTab = this.selectTab.bind(this);
+    // this.selectTab = this.selectTab.bind(this);
 
     // Add a click event that invokes this.selectTab
     // this.tabElement.addEventListener();
@@ -87,7 +87,7 @@ class TabCard {
   selectCard(){
     // Update the style of this.cardElement to display = "flex"
     // this.cardElement;
-    this.cardElement.style.display = "flex";
+    this.cardElement.style.display = "flex"; //not flexing?
   }
 
 }
