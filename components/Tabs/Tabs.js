@@ -22,8 +22,9 @@ class TabLink {
       // console.log(this.cards);
     } else {
       // else if `all` is false, only select the cards with matching this.tabData values
+      // EX: this.item = document.querySelector(`.tabs-item[data-tab="${this.data}"]`);
       // this.cards = ;
-      this.cards = document.querySelectorAll('this.tabData'); //Check syntax of this.tabData within here!!!
+      this.cards = document.querySelectorAll(`.card[data-tab="${this.tabData}"]`);
       // console.log(this.cards);
     }
     // <- Delete this comment block when you work on the if statement
